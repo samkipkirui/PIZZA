@@ -1,0 +1,101 @@
+html,body {
+    scroll-behavior: smooth;
+    height: 100%;
+    margin: 0;
+  }
+.home {
+    background-image: url("../images/aurelien-lemasson-theobald-x00CzBt4Dfk-unsplash.jpg"); 
+    background-size: cover;
+    text-align: center;
+    padding-top: 350px;
+    height: 100%;
+}
+div.empty-input > div.text > p {
+    text-align: left;
+    padding-left: 300px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    width: 50%;
+    font-size: 20px;
+    cursor: pointer;
+}
+div.empty-input > div.text > a {
+    border: 5px solid #3ea7a2;
+    font-size: 60px;
+    background: #3ea7a29f;
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+div.empty-input > div.text > .b1:hover {
+    border: 5px solid #fff;
+    font-size: 60px;
+    background: #fff;
+    color: #3ea7a2;
+    border-radius: 20px;
+    padding: 8px;
+}
+.b1:focus, .img1:focus{
+    outline: 0;
+}
+img{
+    height: 50%;
+    width: 50%;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  #oder{
+      float: right;
+      background-color: red;
+      font-size: 50px;
+      font-weight: 300;
+  }
+  #bar{
+      font-weight: 400;
+      font-size: 40px;
+  }
+  #about{
+      text-align: center;
+      font-size: medium;
+  }
+  .about{
+    height: 100%;
+    background-image: url(/images/aurelien-lemasson-theobald-x00CzBt4Dfk-unsplash.jpg);
+    background-size: cover;
+    height: 100%;
+    /* padding-top: 100px; */
+    color: #000;
+}
+.input-data {
+  float: left;
+  width: 30%;
+  width: 420px;
+  height: 100%;
+  background-color: #fff;
+  text-align: center;
+  background-image: url(/images/mahyar-motebassem-pGA4zHvpo5E-unsplash\ \(1\).jpg);
+}
