@@ -131,9 +131,15 @@ ul {
     background-color: #4CAF50;
     color: white;
   }
+  .col-md-6{
+    color: black;
+  }
  #contact{
    background-image: url(../images/aurelien-lemasson-theobald-x00CzBt4Dfk-unsplash.jpg);
-   font-size: 50px;
+   font-size: 30px;
+   text-align: center;
+   padding-top: 50px;
+   text-decoration-color: black;
  }
 
 }
