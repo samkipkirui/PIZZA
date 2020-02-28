@@ -10,60 +10,65 @@
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
     <title>PIZZA</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Pacifico&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body id="body">
     <div class="topnav">
+        <div id="navbar">
         <a class="active" href="#home">Home</a>
         <a href="#contact">Contact</a>
         <a href="#about">About</a>
-        <a href="#news">Order Now</a>
-      </div>
-
-    <div class="home" id="home">
-        <div class="empty-input" id="empty-input">
-            <div class="text">
-                    <h1 id="head">ECLIPSE DOUBLE SPICED PIZZA</h1>
-                <a href="#about" class="b1"><b>Order Now</b></a>
-            </div>
         </div>
     </div>
 
-        <div class="order">
+    <div class="home">
+        <div class="empty-input" id="empty-input">
+            <div class="text">
+                    <h1 id="head">ECLIPSE DOUBLE SPICED PIZZA</h1><br><br><br><br><br><br><br>
+                <a href="#order" class="b1"><b>Order Now</b></a><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            </div>
+        </div>
+    </div>    
+    <!-- <div class="jumbotron"> -->
+        <div id="order" class="order">
             <div class="input-data" id="input-data">
                 <div class="text">
-                    <h1>Order Now</h1>
-                    <h3>Pizza Size:</h3>
+                    <h1 id="now">Order Now</h1><br>
+                    <h2 id="pizza">Pizza Size:</h2>
                     <select required id="size">
                         <option value="3">Small - sh.300</option>
                         <option value="4">Medium - sh.500 </option>
                         <option value="5">Large - sh.7,00 </option>
                         <option value="5">Extra-Large - sh.1,000 </option>
                     </select>
-                    <h3>Crust Type:</h3>
+                    <h3 id="pizza">Crust Type:</h3>
                     <select required class="form-control" id="crust">
                         <option value="1" name="small">Crispy - sh.50</option>
                         <option value="2" name="medium">Stuffed - sh.100</option>
                         <option value="3" name="large">Gluten-free - sh.150</option>
                         <option value="3" name="extra-large">Gluten-free - sh.250</option>
                     </select>
-                    <h3>Toppings:</h3>
+                    <h2 id="pizza">Toppings:</h2>
                     <input value="Cheese" name="topping" type="checkbox">Cheese - sh.500 <br>
                     <input value="Pepperoni" name="topping" type="checkbox">Pepperoni - sh.500 <br>
                     <input value="Chicken" name="topping" type="checkbox">Chicken - sh.500<br>
                     <input value="Sausage" name="topping" type="checkbox">Sausage - sh.500
-                    <h4>How many Pizza(s):</h4>
+                    <h2 id="pizza">How many Pizza(s):</h2>
                     <input placeholder="Pizza(s)" type="number">
-                    <h4>Your location:</h4>
+                    <h2 id="pizza">Your location:</h2>
                     <input placeholder="Place to be delivered to" type="text">
                     <input type="submit" value="Checkout" id="submit">
-                    <h3>Delivered:</h3>
+                    <h2 id="pizza">Delivered:</h2><br>
                     <input name="deliv" type="radio">Yes
                     <input name="deliv" type="radio">No
-                </div><br><br><br>
-
+                </div><br>
+            </div><br>
+        </div><br><br>
+        </div>
+            <!-- <div class="jumbotron"> -->
                 <div id="about">
-                    <h1>ABOUT US</h1>
+                    <h1 id="now">ABOUT US</h1><br>
                     <h2>Best tasting pizza</h2>
                     <p>A Pizza Inn pizza box might be one of the most recognisable icons of. <br><br>
                         Whichever way you slice it, Pizza Inn is an industry leader in the quick
@@ -71,11 +76,40 @@
                         Zimbabwe, and rose quickly in popularity. <br> Serving hot oven-fresh pizza
                         with its signature all-natural tomato sauce and <br> using only the freshest
                         ingredients, Pizza Inn has established itself at the top of <br> the industry and
-                        is easily one of the first choices in <br> quick service pizza in Africa.</p>
+                        is easily one of the first choices in <br> quick service pizza in Africa.</p><br><br>
 
                 </div>
-        </div>
-    </div>
+            </div><br>
+        <!-- <div class="jumbotron"> -->
+            <div id="contact">
+                <h1  style="color:rgb(19, 16, 16);" id="now">CONTACT US</h1 ><br><br>
+                <form id="form">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+        
+                                <input type="text" for="name" placeholder="Name.." class="form" name="name" id="name"
+                                    style="color:white;">
+        
+                            </div>
+                            <div class="col-md-6">
+        
+                                <input type="text" placeholder="email.." for="email" class="form" name="email" id="email"
+                                    style="color:white;">
+        
+                            </div>
+                        </div><br><br>
+        
+                        <textarea placeholder="Your message here ..." for="message" class="text" name="message" id="message"
+                            style="width: 500px; height: 200px;"></textarea><br><br>
+        
+        
+                        <button type="submit" value="subscribe" name="send" id="mc-embedded-dubscribe" onclick="myButton()" class="button" class="btn btn-outline-info mt-3"></button>
+                        <input type="submit" value="send"><br><br>
+                    </div>
+                </form>
+        
+            </div>
 
 
 </body>
