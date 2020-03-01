@@ -9,14 +9,14 @@
     color: greenyellow;
     font-weight: 800;
     font-family: 'Lobster';
-    padding-top: 40px;
+    padding-top: 90px;
   }
 .home {
     background-image: url("../images/aurelien-lemasson-theobald-x00CzBt4Dfk-unsplash.jpg"); 
     background-size: cover;
     text-align: center;
-    padding-top: 50px;
-    height: 50%;
+    padding-top: 10px;
+    height: 10%;
 
 }
 div.empty-input > div.text > p {
@@ -60,23 +60,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #111;
+    background-color: none;
   }
   .order{
     background-image: url(../images/mahyar-motebassem-pGA4zHvpo5E-unsplash.jpg);
@@ -85,7 +69,7 @@ ul {
     padding-top: 50px;
     height: 100%;
     width: 100%;
-    font-size: 30px;
+    font-size: 10px;
   }
   #bar{
       font-weight: 400;
@@ -141,8 +125,6 @@ ul {
    padding-top: 50px;
    text-decoration-color: black;
  }
-
-}
 form{
     text-align: center;
     form-size: 5%;
@@ -184,7 +166,7 @@ input{
 }
 #pizza{
   font-size: 50px;
-  color: blue;
+  color: black;
 }
 textarea{
 background: inherit;
@@ -197,6 +179,26 @@ button{
 .to-hide{
     display: n;
 }
-.text{
- 
+body {
+  background-color: #333;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 35px;
+}
+
+path {
+  fill: transparent;
+}
+
+.text {
+  color: blue;
+  font-size: 40px;
+  text-align: center;
+}
+.order{
+  font-size: 50px;
+}
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #333;
 }
