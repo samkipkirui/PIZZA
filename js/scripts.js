@@ -52,7 +52,7 @@ order.prototype.cost = function () {
 }
 
 
-order.prototype.totalCost = function () {
+order.prototype.totalCosts = function () {
     var orderTotal = 0;
     for (var order = 0; order < totalCosts.length; order++) {
         orderTotal += totalCosts[order];
