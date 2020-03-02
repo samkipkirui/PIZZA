@@ -1,5 +1,5 @@
 # PIZZA
-<!-- #### https://samkipkirui.github.io/Delani-Studio/ -->
+<!-- #### https://samkipkirui.github.io/PIZZA/.
 #### By ** Sam kipkirui cheruiyot
 ## Description
 This website is a pages that takes online order of pizza and delivery to users to their location.
