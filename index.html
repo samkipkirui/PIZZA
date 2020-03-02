@@ -17,8 +17,9 @@
     <div class="topnav">
         <div id="navbar">
         <a class="active" href="#home">Home</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact Us</a>
+        
         </div>
     </div>
 
@@ -35,84 +36,64 @@
             <div class="input-data" id="input-data">
                 <div class="text">
                     <h1 id="now">Order Now</h1><br>
-                    <h2 id="pizza">Pizza Size:</h2><br>
+                    <h2 id="pizza">Pizza Size:</h2>
                     <select required id="size">
                         <option value="3">Small - sh.300</option>
                         <option value="4">Medium - sh.500 </option>
                         <option value="5">Large - sh.7,00 </option>
                         <option value="5">Extra-Large - sh.1,000 </option>
                     </select>
-                    <h3 id="pizza">Crust Type:</h3><br>
+                    <h3 id="pizza">Crust Type:</h3>
                     <select required id="size">
                         <option value="1" name="small">Crispy - sh.50</option>
                         <option value="2" name="medium">Stuffed - sh.100</option>
                         <option value="3" name="large">Gluten-free - sh.150</option>
                         <option value="4" name="extra-large">Gluten-free - sh.250</option>
-                    </select>
-                    <h2 id="pizza">Toppings:</h2><br>
-                
-                    <input value="Cheese" name="topping" type="checkbox">Cheese - sh.500 </li>
-                    <input value="Pepperoni" name="topping" type="checkbox">Pepperoni - sh.500 </li>
-                    <input value="Chicken" name="topping" type="checkbox">Chicken - sh.500</li>
-                    <input value="Sausage" name="topping" type="checkbox">Sausage - sh.500</li>
+                    </select><br>
+
+                    <h3 id="pizza">Toppings</h3>
+                    <select name="" id="topveg">
+
+                    <option value="">VEG</option>
+                    <option value="Mushrooms">Mushrooms ksh. 200</option>
+                    <option value="Onions">Onions ksh. 200</option>
+                    <option value="Capsicum">Capsicum ksh.200</option>
+                    
+                </select>
+
+                    <select name="" id="topnoveg">
+                        
+                    <option value="">NON VEG</option>
+                    <option value="Chicken">Chicken ksh. 300</option>
+                    <option value="Sausage">Sausage ksh. 300</option>
+                    <option value="Bacon">Bacon ksh. 300</option>
+                </select>
+                </div>
                     <h2 id="pizza">How many Pizza(s):</h2><br>
                     <input placeholder="Pizza(s)" type="number">
                     <h2 id="pizza">Your location:</h2><br>
                     <input placeholder="Place to be delivered to" type="text">
-                    <input type="submit" value="Checkout" id="submit">
-                    <h2 id="pizza">Delivered:</h2>
-                    <input name="deliv" type="radio">Yes
-                    <input name="deliv" type="radio">No
-                </div><br>
+                    
+        
+        </div><br>
+            <div class="over">
+                <h3 id="pizza">Receipt:</h3 id="pizza">
+                    <p id="tc">Total charges:</p>
             </div>
-        </div>
-        </div>
-            <!-- <div class="jumbotron"> -->
-                <div id="about">
-                    <h1 id="now">ABOUT US</h1><br>
-                    <h2>Best tasting pizza</h2>
-                    <p>A Pizza Inn pizza box might be one of the most recognisable icons of. <br><br>
-                        Whichever way you slice it, Pizza Inn is an industry leader in the quick
-                        service pizza game. <br><br> The ?rst Pizza Inn outlet opened its doors in 1994 in Harare,
-                        Zimbabwe, and rose quickly in popularity. <br> Serving hot oven-fresh pizza
-                        with its signature all-natural tomato sauce and <br> using only the freshest
-                        ingredients, Pizza Inn has established itself at the top of <br> the industry and
-                        is easily one of the first choices in <br> quick service pizza in Africa.</p><br><br>
+            <br><br>
 
-                </div>
-            </div><br>
-        <!-- <div class="jumbotron"> -->
-            <div id="contact">
-                <h1  style="color:rgb(19, 16, 16);" id="now">CONTACT US</h1 ><br>
-                <form id="form">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <input type="text" for="name" placeholder="Name.." class="form" name="name" id="name"
-                                style="color:white; height: 500; width: auto;"> 
-        
-                            </div><br>
-                            <div class="col-md-6">
-        
-                                <input  type="text" placeholder="email.." for="email" class="form" name="email" id="email"
-                                    style="color:white; height: 50; width: auto;">
-         
-                            </div>
-                            
-                                   
-                        </div><br>
-        
-                        <textarea placeholder="Your message here ..." for="message" class="text" name="message" id="message"
-                            style="width: 600px; height: 200px;"></textarea><br><br>
-        
-        
-                        <button type="submit" value="subscribe" name="send" id="mc-embedded-dubscribe" onclick="myButton()" class="button" class="btn btn-outline-info mt-3"></button>
-                        <input type="submit" value="send"><br><br>
-                    </div>
-                </form>
-        
+            <div class="order2">
+                <input type="submit" value="Checkout" id="submit">
+                <h2 id="pizza">Delivered:</h2>
+                <input name="deliv" type="radio">Yes
+                <input name="deliv" type="radio">No
             </div>
 
+
+                   
+    </div>
+    
+            
 
 </body>
 

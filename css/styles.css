@@ -160,12 +160,12 @@ input{
 
 }
 #now{
-  font-size: 70px;
+  font-size: 80px;
   font-weight: 600;
-  color: black;
+  color: red;
 }
 #pizza{
-  font-size: 50px;
+  font-size: 70px;
   color: black;
 }
 textarea{
@@ -201,4 +201,7 @@ path {
 #navbar {
   overflow: hidden;
   background-color: #333;
+}
+.over{
+  text-align: center;
 }
