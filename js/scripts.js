@@ -62,9 +62,9 @@ order.prototype.totalCost = function () {
 
 
 $(document).ready(function () {
-    $("input#order1").click(function (event) {
+    $("input#order").click(function (event) {
         event.preventDefault();
-        var sizes = $("select#piz").val();
+        var sizes = $("select#size").val();
         var crusts = $("select#crus").val();
         var noVegToppings = $("select#topnoveg").val();
         var vegToppings = $("select#topveg").val();
@@ -92,62 +92,4 @@ $(document).ready(function () {
         alert("Thank you for Your Purchase!Your order will be delivered to your location 🍕 🚚")
 
     });
-
-
-    $(".picha").click(function () {
-
-        $(".jaza").fadeToggle("slow");
-
-    });
-
-
-    // $(".eve1").hover(function() {
-    // $(".para").slideToggle(1000);
-    // $("#img1").slideToggle(1000);
-    // $(".para").show();
-    // });
-    // $(".eve2").hover(function() {
-    // $(".para1").slideToggle(1000);
-    // $("#img2").slideToggle(1000);
-    // $(".para1").show();
-    // });
-    // $(".eve3").hover(function() {
-    // $(".para2").slideToggle(1000);
-    // $("#img3").slideToggle(1000);
-    // $(".para2").show();
-    // });
-
-
-    // $(".eve4").hover(function() {
-    // $(".para3").slideToggle(1000);
-    // $("#img4").slideToggle(1000);
-    // $(".para3").show();
-
-    // });
-    // })
-
-
-    function validate() {
-        var name = document.getElementById("name").value;
-        var email = document.getElementById("email").value;
-        var text = document.getElementById("text").value;
-
-
-
-        if (name === "") {
-            alert("Please write your name!");
-
-        } else if (email === "") {
-            alert("Please write your name!");
-
-        } else if (text === "") {
-
-            alert("Please write a message");
-
-        } else {
-
-            alert("We have recieved your message dear " + name + ", " + " thank you for getting in touch with us");
-        };
-
-    }
-})
+});
